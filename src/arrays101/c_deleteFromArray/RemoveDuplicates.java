@@ -1,4 +1,4 @@
-package arrays101.deleteFromArray;
+package arrays101.c_deleteFromArray;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package arrays101.searchArray;
+package arrays101.d_searchArray;
 
 public class LinearSearch {
     public static boolean linearSearch(int[] array, int target) {
