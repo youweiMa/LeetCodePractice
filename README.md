@@ -1,3 +1,3 @@
 ### LeetCodePractice
 
-practice to solve some LC problems
+practice solving LC
