@@ -17,7 +17,7 @@ public class RemoveDuplicates {
     }
 
     /*
-     * iterate from penult,
+     * iterate from the second last element,
      * compare it with next position,
      * if identical, delete the first one of rest
      * in-place
@@ -36,8 +36,10 @@ public class RemoveDuplicates {
     }
 
     /*
-     * copy and return new array
-     * find length at first
+     * copy and return new array,
+     * find required length of the new one at first
+     * not overwrite the old one
+     * RETURN ARRAY
      * */
     public int[] removeDuplicates3(int[] arr) {
         if (arr.length == 0) {
