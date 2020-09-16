@@ -30,16 +30,16 @@ public class HeightChecker {
      * compare height with index
      * */
     public static int solution2(int[] nums) {
-        int[] index = new int[101];             // problem restriction: height between 1 and 100
+        int[] index = new int[101];                 // problem restriction: height between 1 and 100
         for (int a : nums) {                        // for each height corresponding index, index++
             index[a]++;
         }
         int result = 0;
-        int t = 0;                              // index to be compared
+        int t = 0;                                  // index to be compared
         for (int i = 0; i < nums.length; i++) {
-            while (index[t] == 0) t++;             // means this height has been counted out
+            while (index[t] == 0) t++;              // means this height has been counted out
             if (t != nums[i]) result++;
-            index[t]--;                         // count in this index - 1
+            index[t]--;                             // count in this index - 1
         }
         return result;
     }
