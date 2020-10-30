@@ -1,7 +1,7 @@
 package top_interview_questions.easy_collection.array;
 
 public class RemoveDuplicates {
-    // sbm (solved by myself)
+    // DIY
     public static int solution1(int[] nums) {
         int len = nums.length;
         int i = 0;

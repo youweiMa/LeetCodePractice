@@ -6,7 +6,7 @@ import java.util.Set;
 
 // 217
 public class ContainDuplicate {
-    // sbm
+    // DIY
     // time limit exceeded
     public static boolean containsDuplicate(int[] nums) {
         // for each nums[i], compare with the rest elements
