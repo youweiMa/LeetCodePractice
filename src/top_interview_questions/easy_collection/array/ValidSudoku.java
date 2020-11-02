@@ -48,9 +48,7 @@ public class ValidSudoku {
                 char num = board[i][j];
                 if (num != '.') {
                     // if any difference, count it
-                    if (!seen.add(num + " in row " + i) ||
-                            !seen.add(num + " in col " + j) ||
-                            !seen.add(num + " in box " + i / 3 + "-" + j / 3)) {
+                    if (!seen.add(num + " in row " + i) || !seen.add(num + " in col " + j) || !seen.add(num + " in box " + i / 3 + "-" + j / 3)) {
                         return false;
                     }
                 }
